@@ -1,4 +1,13 @@
-POST http://localhost:5000/api/users
+# POST http://localhost:5000/api/users
+# content-type: application/json
+
+# {
+#     "name": "sample",
+#     "email": "test@test.com",
+#     "password": "123456"
+# }
+
+POST http://localhost:5000/api/users/login
 content-type: application/json
 
 {
@@ -6,5 +15,3 @@ content-type: application/json
     "email": "test@test.com",
     "password": "123456"
 }
-
-# POST http://localhost:5000/api/users/login

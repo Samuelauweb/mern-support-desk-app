@@ -7,7 +7,6 @@
 #     "password": "123456"
 # }
 
-
 @ Does not work - Bearer Token
 # GET http://localhost:5000/api/users/me
 # Content-type: application/json
@@ -17,5 +16,5 @@
 #     "name": "sample",
 #     "email": "test@test.com",
 #     "password": "123456",
-#     "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYyMjI0MjZmY2JlZmMxNmM5MWQ2OTEyZiIsImlhdCI6MTY0NjQ2NTY3NCwiZXhwIjoxNjQ5MDU3Njc0fQ.ccnbsBWfhgR5lPIdD7-6FSbn2C6qTtl2_LU15PcC6p0"
+#     "token": "JWT-Token"
 # }
